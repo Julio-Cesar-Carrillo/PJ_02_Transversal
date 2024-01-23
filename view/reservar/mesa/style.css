@@ -1,0 +1,75 @@
+* {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    padding: 3%;
+    background-image: url(./fondo.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+h1 {
+    color: red;
+    /* margin: 0%; */
+}
+
+.mesa {
+    width: 100%;
+}
+
+.columna {
+    width: 100%;
+    height: auto;
+    float: left;
+    gap: 10px;
+    padding: 1%;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sala {
+    display: flex;
+    gap: 10px;
+    padding: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.btn {
+    width: 30%;
+}
+
+img {
+    width: 100%;
+    /* Establece el ancho deseado */
+    height: 90%;
+}
+
+.texto {
+    padding-left: 30%;
+    padding-right: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+a {
+    padding: 12px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.salir {
+    background-color: #d32f2f;
+}
+
+.salir:hover {
+    background-color: #b71c1c;
+}
